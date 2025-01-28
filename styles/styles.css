@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     --autobackground-color: darkblue;
     --basicalignment-text-alignment: center;
@@ -8,12 +13,22 @@ nav {
     background-color: var(--autobackground-color);
     padding: 10px;
 }
+
 nav a {
     color: white;
     display: block;
+    width: fit-content; /*adjusted the width for a better fit*/
     padding: 20px;
 }
+/* added design to the buttons/links */
+nav a:hover {
+    background: aqua;
+    color: #000;
+}
+/* adjusted the position and added space on the left to align text  */
 h1 {
+    position: relative;
+    left: 2%;
     color: var(--autobackground-color);
     color: rgb(0, 153, 169)
 }
@@ -23,21 +38,24 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 p {
     padding: 0;
+    text-align: justify;
 }
 main {
     max-width: 840px;
 }
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    width: 20em;
     text-align: var(--basicalignment-text-alignment);
+    position: relative;
+}
+aside h2 {
+    position: absolute;
+    top: 15px;
+    left: 120px;
 }
 aside img {
     width: 200px;
@@ -47,4 +65,21 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: var(--basicalignment-text-alignment);
+}
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+/* added rules to fix spacing on the website */
+.spacing p {
+    position: relative;
+    left: 2%;
+}
+.spacing img {
+    position: relative;
+    left: 4%;
 }
