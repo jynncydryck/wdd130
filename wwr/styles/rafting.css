@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif, sans-serif;
+}
+:root {
+    --primary-color: rgb(191 215 234);
+    --secondary-color: rgb(145 174 193);
+    --accent1-color: rgb(80 140 164);
+    --accent2-color: rgb(0 79 45);
+    --logos-height: 20px;
+    --logos-width: 20px;
+    --heading-font: "Cormorant Garamond", serif, sans-serif;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 50%;
+}
+.topmenu {
+    padding-right: 30px;
+    background-color: var(--secondary-color)
+}
+.topnav a {
+    color: brown;
+    padding-bottom: 5px;
+    position: relative;
+    font-size: 25px;
+}
+.topmenu:hover {
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+}
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color)
+}
+.topnav {
+    display: flex;
+}
+h1 {
+    position: absolute;
+    bottom: 130%;
+    left: 40%;
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+p {
+    display: block;
+    padding: 20px;
+    color: var(--accent2-color)
+}
+.fb {
+    height: var(--logos-height);
+    width: var(--logos-width);
+}
+.ig {
+    height: var(--logos-height);
+    width: var(--logos-width);
+}
+.tiktok {
+    height: var(--logos-height);
+    width: var(--logos-width);
+}
+a {
+    text-decoration: none;
+}
+/* body {
+    min-height: 100vh;
+    background: url('../images/niagra.jpg'); 
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+} */
+/* div .hero {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+}
+article {
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+} */
+ .hero {
+    position: relative;
+ }
+ .heroimg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+ }
+ article {
+    display: block;
+    position: absolute;
+    bottom: 60%;
+    top: 20%;
+ }
+ .happyclient {
+    display: block;
+    float: right;
+    padding-bottom: 30px;
+    padding-right: 30px;
+ }
