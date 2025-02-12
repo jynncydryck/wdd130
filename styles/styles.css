@@ -100,7 +100,7 @@ footer {
     position: relative;
     left: 4%;
 }
-header, footer, .grid {
+header, footer{
     max-width: var(--max-width);
     margin: 0;
 }
@@ -108,4 +108,7 @@ header, footer, .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    max-width: var(--max-width);
+    margin: 0;
+}
 }
