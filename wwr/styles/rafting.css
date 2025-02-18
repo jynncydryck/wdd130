@@ -21,6 +21,9 @@
 .topnav a {
     color: var(--accent2-color);
 }
+main {
+   background-color: #eaebeb;
+}
 .topmenu:hover {
     color: var(--primary-color);
     background-color: var(--accent2-color);
@@ -155,4 +158,124 @@ footer nav {
     width: 2rem;
     height: 2rem;
     padding-right: 4px;
+}
+
+/**contact us css rules**/
+table {
+   border-collapse: collapse;
+   border: 2px solid black;
+   font-family: sans-serif, serif, 'Times New Roman';
+   font-size: 1.5rem;
+   letter-spacing: 0.5px;
+   padding: 1.5rem;
+   margin: auto;
+}
+th, td {
+   border: 0.3rem solid black;
+   padding: 1em;
+}
+.map {
+   display: flex;
+   justify-content: center;
+   padding: 2rem;
+}
+.title {
+   text-align: center;
+   padding: 2rem;
+   font-size: 4rem;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 500;
+}
+
+form {
+   background-color: var(--primary-color);
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 1rem;
+   border: 5px solid;
+   border-radius: 2rem;
+   padding: 1rem;
+   width: fit-content;
+   margin: auto;
+}
+button {
+   border-radius: 1rem;
+   padding: 5px;
+   font-weight: 700;
+   display: flex;
+   justify-self: center;
+}
+button:hover {
+   background-color: aquamarine;
+}
+textarea {
+   width: 100%;
+   border-radius: 1rem;
+   padding: 1rem;
+}
+.textarea {
+   padding: 0.5rem;
+   padding-bottom: 1rem;
+}
+.name, .emailad, .options {
+   padding: 1rem;
+}
+.purpose {
+   padding: 1rem;
+   font-size: 1rem;
+   color: black;
+}
+.inquiry, .reservation, .suggestion {
+   padding: 0.5em;
+}
+.subscribe {
+   padding: 1rem;
+}
+.comment {
+   padding: 2rem;
+}
+input [type="text"] {
+   height: 1.5em;
+   width: 1.5em;
+   vertical-align: bottom;
+}
+input {
+   border-radius: 0.5rem;
+   font-family: 'Times New Roman', Times, serif;
+}
+.team {
+   display: flex;
+   justify-content: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 5rem;
+   padding: 2rem;
+}
+.chris, .litton, .rhed {
+   height: 20rem;
+   width: 20rem;
+   border-radius: 10rem;
+}
+.chrisname, .littonname, .rhedname {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 2rem;
+   color: black;
+}
+.videographer, .trip, .safety {
+   font-style: italic;
+   color: black;
+}
+.chrissection, .littonsection, .rhedsection {
+   border: solid;
+   width: 350px;
+   text-align: center;
+   padding: 1rem;
+   background-color: #c89898;
+}
+.employees {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 2rem;
+}
+.happy-employees {
+   display: flex;
+   justify-content: center;
 }
