@@ -180,13 +180,20 @@ th, td {
    padding: 2rem;
 }
 .title {
-   text-align: center;
    padding: 2rem;
-   font-size: 4rem;
+   font-size: 3rem;
    font-family: 'Times New Roman', Times, serif;
    font-weight: 500;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
 }
-
+.companytitle {
+   position: relative;
+   padding: 0;
+   left: 0;
+   bottom: 0;
+}
 form {
    background-color: var(--primary-color);
    font-family: 'Courier New', Courier, monospace;
